@@ -1,10 +1,10 @@
-import Layout from "../components/Layout"
-import Image from "next/image"
+import Layout from "../components/Layout";
+import Image from "next/image";
 
-const Contact = () => {
-    return (
-        <Layout title="Contact">
- <div className="bg-white text-center shadow-xl p-8 w-80 rounded">
+export default function Contact() {
+  return (
+    <Layout title="Contact">
+      <div className="bg-white text-center shadow-xl p-8 w-80 rounded">
         <div className="mt-4">
           <p className="font-bold">Contact info</p>
         </div>
@@ -77,8 +77,6 @@ const Contact = () => {
           </div>
         </div>
       </div>
-        </Layout>
-    )
+    </Layout>
+  );
 }
-
-export default Contact
